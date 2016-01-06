@@ -1,0 +1,68 @@
+//*Создание структурированой Jason таблицы  для построения базы данных  с последущей интеграциией других таблиц 
+
+[
+  {
+"Last Updated Date" : "NULL",
+"CAS Registry No."	: "NULL",
+"Molecular Formula"	: "NULL",
+"Molecular Weight"	: "NULL",
+"Highest Phase"	: "NULL",
+"Udenr Active Development"	: "NULL",
+"Chemical Name / Description	Code Name (CD)"	: "NULL",
+"Generic Name (GN)"	: "NULL",
+"Brand Name (BN)"	: "NULL",
+"Drug Name (CD, GN, BN)" : "NULL",	KEY  
+"Molecular Mechanism"	: "NULL",
+"Cellular Mechanism" : "NULL",
+"Product Category"	: "NULL",
+"Therapeutic Group"	: "NULL",
+"Prescription/Indication Type"	: "NULL",
+"Mechanism of Action" : "NULL",     KEY 
+"Organization"  : "NULL",	        KEY
+"Natural Source	Condition"	: "NULL",
+"Development Status" : "NULL",								
+"Milestones": "NULL",						
+"Product Summary"	: "NULL",
+"Related Basic Patent"	: "NULL",
+"Link to Integrity"	: "NULL",
+"Structure Entry Date"	: "NULL",
+"SMILES	Sequence"	: "NULL",
+"Sequence Type"	: "NULL",
+"Structure" : "NULL",
+
+ }
+
+ ]
+
+
+
+[
+ {
+  Entry Number	 
+  Main Name	
+  Mechanism of Action	
+  Organization	 KEY
+  Condition	Phase	
+  Country/Area	
+  Administration Route	
+  Formulation	
+  Molecular Weight	 
+  Highest Phase	
+  Under Active Development	
+  Drug Name (CD, GN, BN) KEY 	
+  Product Category	
+  Therapeutic Group	
+  Prescription/ Indication Type	
+  Natural Source
+ }
+]
+[
+ {
+ Gene Name	
+ Organism	
+ Condition	
+ Study Type	
+ Model	
+ Summary
+ }
+]
